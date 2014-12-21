@@ -15,8 +15,9 @@ public class tentangActivity extends Activity implements OnClickListener
 			setContentView(R.layout.tentang); 
 		}
 
-	public void onClick(View v) 
+	public String onClick(String s) 
 	{
+		View v = null;
 		// TODO Auto-generated method stub
 		if(v.getId()==R.id.button2)
 		{
@@ -24,6 +25,8 @@ public class tentangActivity extends Activity implements OnClickListener
 			startActivity(i);
 			finish();
 		}
+		return "Tentang aplikasi Kami "+s;
+		
 	}
 
 	@Override

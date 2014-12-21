@@ -49,5 +49,10 @@ public class mathActivity extends Activity{
 	    } catch (IOException e) {} 
 	    return s.toString();
 	}
+
+	public String mathActivity(String string, int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
